@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999203613247",
+    "project_id": "conferencemanagementsyst-59d3c",
+    "storage_bucket": "conferencemanagementsyst-59d3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999203613247:android:edc7278bdee3fa0899e68a",
+        "android_client_info": {
+          "package_name": "com.example.conference_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQnUgez1VRpJ9R-_1y34RJjopS1kEa05A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

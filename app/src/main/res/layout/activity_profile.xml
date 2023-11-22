@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#e4e4e4"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/speakerProfileImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/default_speaker_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/speakerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speaker's Name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/speakerProfileImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/speakerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speaker's Title"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/speakerName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/speakerBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speaker's Bio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida purus sed quam commodo, at tincidunt est elementum. Sed eu sapien sit amet tellus consequat laoreet."
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/speakerTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Back"
+        android:backgroundTint="#001233"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speakerBio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
